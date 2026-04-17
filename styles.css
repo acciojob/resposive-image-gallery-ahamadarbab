@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */
+.cards {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	
+}
+
+img {
+	border: 3px solid #000;
+	margin: 10px;
+	box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+	max-width: 25vw;
+}
+
+img:nth-child(even) {
+	height: 100px;
+}
