@@ -8,11 +8,15 @@
 	
 }
 
-img {
+:root {
+  --img-width: 25vw;
+}
+
+cards img {
 	border: 3px solid #000;
 	margin: 10px;
 	box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
-	max-width: 25vw;
+	max-width: var(--img-width);
 }
 
 .cards img:nth-child(even) {
